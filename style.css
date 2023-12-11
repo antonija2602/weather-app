@@ -6,4 +6,55 @@
     font-family: "Muli", sans-serif;
     box-sizing: border-box;
     background-color: #0f2133;
+    color: #eee;
+    border: 1px red solid;
+}
+
+body {
+    min-height: 100vh;
+    /* background: #ced1d6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+input {
+    background-color: #3a4967;
+    border: none;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgb(175, 175, 175);
+    /* font-family: inherit; */
+    min-width: 300px;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    font-size: 2rem;
+    text-align: center;
+    /* min-width: 300px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 3rem;
+}
+
+/* .weather h2 { */
+/* margin-bottom: 0; */
+/* } */
+
+.weather img {
+    transform: scale(1.5);
+    /* display: flex;
+    align-items: center; */
+}
+
+body {
+    gap: 2rem;
 }
